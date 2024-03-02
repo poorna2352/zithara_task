@@ -1,0 +1,87 @@
+/* Updated CSS for full-page display */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color:blanchedalmond;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+div {
+  text-align: center;
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%; /* Make the table take the full width of the container */
+  margin: 20px 0;
+  background-color: #f5f5f5; /* Light color background for the table */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #8B4513; /* Brown color instead of green */
+  color: white;
+}
+
+/* Flex container for Search Bar and Sort By */
+.search-sort-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+input {
+  padding: 8px;
+  margin: 10px;
+  width: 70%; /* Adjusted width to fit the search bar properly */
+}
+
+button {
+  background-color: #8B4513; /* Brown color instead of green */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  width: 25%; /* Adjusted width for the Sort By button */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #8B4513; /* Brown color instead of green */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #5A2E0B; /* Darker shade on hover */
+}
+
+.pagination button:focus {
+  outline: none;
+}
+
+/* Smaller font size for page numbers */
+.pagination button span {
+  font-size: 12px; /* Adjusted size for page numbers */
+}
